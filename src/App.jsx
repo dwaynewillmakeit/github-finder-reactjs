@@ -11,7 +11,7 @@ function App() {
 			<div className="flex flex-col justify-between h-screen">
 				<Navbar />
 
-				<main className="contaner mx-auto px-3 pb-12">
+				<main className="contaner  px-3 pb-12">
 					<Routes>
 						<Route path="/" element={<Home />} />
 						<Route path="/about" element={<About />} />
